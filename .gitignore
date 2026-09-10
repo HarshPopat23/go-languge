@@ -1,0 +1,30 @@
+# Binaries and executables
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+/bin/
+/dist/
+
+# Test artifacts
+*.test
+*.out
+coverage.html
+profile.pprof
+
+# Delve debugger artifacts
+__debug_bin*
+
+# Dependency directories
+# (Go uses module cache, vendor is optional)
+# /vendor/
+
+# Environment files
+.env
+*.env.local
+
+# OS generated files
+Thumbs.db
+Desktop.ini
+.DS_Store

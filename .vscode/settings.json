@@ -1,0 +1,28 @@
+{
+  "[go]": {
+    "editor.insertSpaces": false,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    }
+  },
+  "go.useLanguageServer": true,
+  "go.lintOnSave": "package",
+  "go.formatTool": "gopls",
+  "go.alternateTools": {
+    "gopls": "D:\\go\\bin\\gopls.exe",
+    "dlv": "D:\\go\\bin\\dlv.exe"
+  },
+  "gopls": {
+    "ui.semanticTokens": true,
+    "ui.codelenses": {
+      "gc_details": false,
+      "generate": true,
+      "regenerate_cgo": true,
+      "tidy": true,
+      "upgrade_dependency": true,
+      "test": true
+    },
+    "formatting.gofumpt": false
+  }
+}
