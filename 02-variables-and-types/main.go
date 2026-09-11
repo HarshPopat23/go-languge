@@ -4,11 +4,11 @@ import "fmt"
 
 // Constants cannot be modified after declaration
 const (
-	AppName = "GoLearningLab"
-	Pi      = 3.14159
-	StatusActive = iota // iota starts at 0 and increments: 0
-	StatusPending       // 1
-	StatusClosed        // 2
+	AppName       = "GoLearningLab"
+	Pi            = 3.14159
+	StatusActive  = iota // iota starts at 0 and increments: 0
+	StatusPending        // 1
+	StatusClosed         // 2
 )
 
 func main() {
